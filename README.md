@@ -29,7 +29,7 @@ This README will guide you, the user, how to host and format your resume on GitH
     > Click `File` on top of your screen and click `New Repository`.
     > Name the new repository your `repository_name.github.io`
 
-![create_repo](https://user-images.githubusercontent.com/57551793/97371382-0e9cc380-187f-11eb-9f8d-8478ea6af82e.gif)
+![create_repo](https://user-images.githubusercontent.com/57551793/97371382-0e9cc380-187f-11eb-9f8d-8478ea6af82e.gif){:height="700px" width="400px"}
 
 
 1. Open Visual Studio Code.
@@ -37,7 +37,7 @@ This README will guide you, the user, how to host and format your resume on GitH
    > Click the `Visual Studio Code`. Now GitHub Desktop will use the reposiotry that you just create.
 
    > You can change External Editor. Click `Preference` and go `Advanced` then choose other editor.
-![IMG_50EC0F8EDD6F-1](https://user-images.githubusercontent.com/57551793/97371524-62a7a800-187f-11eb-950c-d40816effb7f.jpeg)
+![IMG_50EC0F8EDD6F-1](https://user-images.githubusercontent.com/57551793/97371524-62a7a800-187f-11eb-950c-d40816effb7f.jpeg){:height="700px" width="400px"}
 1. Write your resume in Markdown.
 
    1. Create a new text file and save it as " **_index<i></i>.md_** "
