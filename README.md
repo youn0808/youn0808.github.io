@@ -74,6 +74,8 @@ This README will guide you, the user, how to host and format your resume on GitH
    > When you finish your resume, then go to the GitHub Desktop app then it will show what you have made changes do your Markdown document.
 
    > To host the file to your GitHub webpage, click `commit master` button and then click `Push origin` button.
+   
+   > ![commit](https://user-images.githubusercontent.com/57551793/97372613-072ae980-1882-11eb-8252-5f538e6a8daa.gif)
 
 1. Visit your GitHub website.
 
