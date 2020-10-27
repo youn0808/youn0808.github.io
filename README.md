@@ -29,7 +29,7 @@ This README will guide you, the user, how to host and format your resume on GitH
     > Click `File` on top of your screen and click `New Repository`.
     > Name the new repository your `repository_name.github.io`
 
-![repo](https://user-images.githubusercontent.com/57551793/97372034-a4851e00-1880-11eb-9bf4-3bb03aaa6ce9.gif)
+    >![repo](https://user-images.githubusercontent.com/57551793/97372034-a4851e00-1880-11eb-9bf4-3bb03aaa6ce9.gif)
 
 1. Open Visual Studio Code.
 
