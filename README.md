@@ -73,8 +73,7 @@ This README will guide you, the user, how to host and format your resume on GitH
 
     - **Use Distributed Version Control (DVCS)** : It enables you to manage the changes offline and allows you to branch stay in sync. <br>Unlike ./docs directory make dramatically slow down to access, using DVCS is way faster. So most developers perfer using it.
 
-    > When you finish your resume, then go to the GitHub Desktop app then it will show what you have made changes do your Markdown document.
-
+    > When you finish your resume, then go to the GitHub Desktop app then it will show what you have made changes do your Markdown document.<br>
     > To host the file to your GitHub webpage, click `commit master` button and then click `Push origin` button.
 
     > Now you can see your resume on the GitHub page.
@@ -83,11 +82,29 @@ This README will guide you, the user, how to host and format your resume on GitH
 
 1.  Host static website on GitHub Pages.
 
-- **Make Static website** :
-  It consists of only simple documents, so there is little communication between servers, so the speed is fast and also you don't need to install anything.<br>
-  You can manually create a simple static website but it is very tedious and error prone so it is better to using static stie generator such as Jekyll.<br>You can customize the theme by using it which make your page speciall.<br> you can learn it via a tutorial [here](#More-Resources).
+    - **Make Static website** :
+      It consists of only simple documents, so there is little communication between servers, so the speed is fast and also you don't need to install anything.<br>
+      You can manually create a simple static website but it is very tedious and error prone so it is better to using static stie generator such as Jekyll.<br> you can learn it via a tutorial [here](#More-Resources).
 
-![select theme](https://user-images.githubusercontent.com/57551793/97398044-83402400-18b8-11eb-9627-44bc40dfece6.gif)
+    > Go to your repository, click the `Settings`.
+    > ![IMG_EC2F5E6348ED-1 2](https://user-images.githubusercontent.com/57551793/97400157-a1a81e80-18bc-11eb-8bfe-2f77213dcb00.jpeg)
+
+    > Select `"Master branch"`.
+    > ![theme_1](https://user-images.githubusercontent.com/57551793/97400490-3448bd80-18bd-11eb-92ab-3aff29bb584f.gif)
+
+    Now you are suppose to see your Markdown resume online. "`<YourUserName>`.github.io".
+
+1.  Applying a Theme to your Resume.
+
+    - You can customize the theme by using it which make your page speciall.
+      Our tutorial shows you Jekyll functionality to select a theme for your resume.<br>
+
+    > In the setting screen, you can scroll down and click `Change theme` > ![IMG_A4B61453EEA2-1](https://user-images.githubusercontent.com/57551793/97402107-fd27db80-18bf-11eb-942e-18ecfb8e2491.jpeg)
+
+    > You can choose your favorit theme and click `Select theme`.
+    > ![IMG_2E83ED09A6AE-1](https://user-images.githubusercontent.com/57551793/97402151-10d34200-18c0-11eb-9d10-66a5f72f77e8.jpeg)
+
+    Now your Resume theme is changed.
 
 ### More Resources
 
