@@ -27,11 +27,11 @@ Email: hhwannn2@gmail.com |
 
 - **Redi Mart** | Cashier | `Jan 2020 - Present`
 
-  - Process customer payments and assist maintaining store
+  - Process customer payments and assist in maintaining store
 
 - **Earl’s kitchen** | Line Cook | `May 2019 - Aug 2019`
 
-  - Produced and managed multiple food orders quickly and calmily throughout rush periods.
+  - Produced and managed multiple food orders quickly and calmly throughout rush periods.
 
 - **Hertz Car Rental** | Car rental agent | `Jan 2016 - July 2019`
 
@@ -43,5 +43,5 @@ Email: hhwannn2@gmail.com |
 
 ### **PROJECTS**
 
-- **Human Computer Interaction Group Project**
-  - Construct university course registration system
+- **Human-Computer Interaction Group Project**
+  - Construct a university course registration system
