@@ -17,8 +17,6 @@ This README will guide you, the user, how to host and format your resume on GitH
 
 ---
 
-### Writing your resume in Markdown
-
 ### Host your resume to GitHub.
 
 1.  Open the GitHub Desktop App.
@@ -29,61 +27,69 @@ This README will guide you, the user, how to host and format your resume on GitH
     > Click `File` on top of your screen and click `New Repository`.
     > Name the new repository your `repository_name.github.io`
 
-    >![repo](https://user-images.githubusercontent.com/57551793/97372034-a4851e00-1880-11eb-9bf4-3bb03aaa6ce9.gif)
+    > ![repo](https://user-images.githubusercontent.com/57551793/97372034-a4851e00-1880-11eb-9bf4-3bb03aaa6ce9.gif)
 
-1. Open Visual Studio Code.
+1.  Open Visual Studio Code.
 
-   > Click the `Visual Studio Code`. Now GitHub Desktop will use the reposiotry that you just create.
+    > Click the `Visual Studio Code`. Now GitHub Desktop will use the reposiotry that you just create.
 
-   > You can change External Editor. Click `Preference` and go `Advanced` then choose other editor.
-   >![click](https://user-images.githubusercontent.com/57551793/97372256-34c36300-1881-11eb-918e-e5dcbcf97838.png)
+    > You can change to other editor. Click `Preference` and go `Advanced` then choose other editor.
+    > ![click](https://user-images.githubusercontent.com/57551793/97372256-34c36300-1881-11eb-918e-e5dcbcf97838.png)
 
-1. Write your resume in Markdown.
+1.  Write your resume in `Markdown`.
 
-   1. Create a new text file and save it as " **_index<i></i>.md_** "
+- **Need to use Lightweight Markup**: When you write `README` and `Resume` in our case, you need to use lightweight markup langues such as GitHub Flavored Markdown and also you should use a editor such as Atom, Sublime Text and Visual Studio to write lightweight markup.<br> If you write XML by hands, it is very tedious and error prone. For example, a small missing slash or bracket can break an entire page.
 
-      > The reason for make file with the name is GitHub Pages looks for "_index<i></i>.md_ " file to use as the main page of your site.
+1.  Create a new text file and save it as " **_index<i></i>.md_** "
 
-   1. Enter your Resume Header.
+    > The reason for make file with the name is GitHub Pages looks for "_index<i></i>.md_ " file to use as the main page of your site.
 
-      > On the Header put your name and contack information.
+1.  Enter your Resume Header.
 
-      ```
-      ## Your Name
-      Phone: (555) 555-5555 |
-      Email: person@gmail.com |
-      GitHub link: github.com/githubId
-      ```
+    > On the Header put your name and contact information.
 
-   1. Add your technical sklls, experience and education with details as subheading.
+    ```
+    ## Your Name
+    Phone: (555) 555-5555 |
+    Email: person@gmail.com |
+    GitHub link: github.com/githubId
+    ```
 
-      ```
-      ### Education
-         - **B.Sc. Computer Science Major** | Name of University  | 2016 - Present
+1.  Add your technical sklls, experience and education with details as subheading.
 
-      ### **TECHNICAL SKILLS**
-         - HTML/ CSS / JS
+    ```
+    ### Education
+       - **B.Sc. Computer Science Major** | Name of University  | 2016 - Present
 
-      ### **Work Experience**
-         - Google | Porject Manager | Sep 2017 - Dec 2018
+    ### **TECHNICAL SKILLS**
+       - HTML/ CSS / JS
 
-      ```
+    ### **Work Experience**
+       - Google | Porject Manager | Sep 2017 - Dec 2018
 
-1. Push your Resume to GitHub
+    ```
 
-   > When you finish your resume, then go to the GitHub Desktop app then it will show what you have made changes do your Markdown document.
+1.  Push your Resume to GitHub
 
-   > To host the file to your GitHub webpage, click `commit master` button and then click `Push origin` button.
-   
-   > ![commit](https://user-images.githubusercontent.com/57551793/97372613-072ae980-1882-11eb-8252-5f538e6a8daa.gif)
+    - **Use Distributed Version Control (DVCS)** : It enables you to manage the changes offline and allows you to branch stay in sync. <br>Unlike ./docs directory make dramatically slow down to access, using DVCS is way faster. So most developers perfer using it.
 
-1. Visit your GitHub website.
+    > When you finish your resume, then go to the GitHub Desktop app then it will show what you have made changes do your Markdown document.
 
-   > Now you can see your
+    > To host the file to your GitHub webpage, click `commit master` button and then click `Push origin` button.
+
+    > Now you can see your resume on the GitHub page.
+
+    > ![commit](https://user-images.githubusercontent.com/57551793/97372613-072ae980-1882-11eb-8252-5f538e6a8daa.gif)
+
+1.  Host static website on GitHub Pages.
+
+- **Make Static website** :
+  It consists of only simple documents, so there is little communication between servers, so the speed is fast and also you don't need to install anything.<br>
+  You can manually create a simple static website but it is very tedious and error prone so it is better to using static stie generator such as Jekyll.<br>You can customize the theme by using it which make your page speciall.<br> you can learn it via a tutorial [here](#More-Resources).
 
 ### More Resources
 
-Markdown Resources
+Markdown
 
 - [Markdown Tutorial](https://www.markdowntutorial.com/)
 - [Andrew Etter: Modern Technical Writing](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS)
@@ -92,6 +98,10 @@ Markdown Resources
 GitHub
 
 - [Github Pages Help](https://help.github.com/en/github/working-with-github-pages)
+
+Jekyll
+
+- [Jekyll Tutorial](https://www.youtube.com/playlist?list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB)
 
 ---
 
@@ -110,6 +120,13 @@ GitHub
 - Version control system : When you work with someone else, using a word processor is relly hard to merge changes. But Markdown helps keep your file update.
 
 - Variaty platform : Markdown is like plain text so any operating system can read it and also it can easily be converted to any format such as pdf, dock, HTML. On the other hand, if you use word processor the other person need to have Word or something that can opern the word file to see it.
+
+### **Why is my resume not showing up on the page?**
+
+There are many reasons that could cause your website to not show up,
+
+- There will be many reasons that could vause your website to not show up. First, the most common mistake is you might not make your resume to name `"index.md"`.
+  Another common issue could be that your repository is named is not exactly match your github account name.
 
 ### **How to update my resume on my GitHub pages?**
 
