@@ -87,6 +87,8 @@ This README will guide you, the user, how to host and format your resume on GitH
   It consists of only simple documents, so there is little communication between servers, so the speed is fast and also you don't need to install anything.<br>
   You can manually create a simple static website but it is very tedious and error prone so it is better to using static stie generator such as Jekyll.<br>You can customize the theme by using it which make your page speciall.<br> you can learn it via a tutorial [here](#More-Resources).
 
+![select theme](https://user-images.githubusercontent.com/57551793/97398044-83402400-18b8-11eb-9627-44bc40dfece6.gif)
+
 ### More Resources
 
 Markdown
