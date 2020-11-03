@@ -40,37 +40,12 @@ This README will guide you, the user, on how to host and format your resume on G
 
 1.  Write your resume in `Markdown`.
 
-- **Need to use Lightweight Markup**: When you write `README` and `Resume` in our case, you need to use lightweight markup languages such as GitHub Flavored Markdown. <br>
-  Also, you should use an editor such as Atom, Sublime Text, and Visual Studio to write lightweight markup.<br> If you write XML by hand, it is very tedious and error-prone. For example, a small missing slash or bracket can break an entire page.
+    - **Need to use Lightweight Markup**: When you write `README` and `Resume` in our case, you need to use lightweight markup languages such as GitHub Flavored Markdown. <br>
+      **Also, you should use an editor such as Atom, Sublime Text, and Visual Studio to write lightweight markup.<br> If you write XML by hand, it is very tedious and error-prone.** For example, a small missing slash or bracket can break an entire page.
 
 1.  Create a new text file and save it as " **_index<i></i>.md_** "
 
     > The reason for making a file with the name is GitHub Pages looks for "_index<i></i>.md_ " file to use as the main page of your site.
-
-1.  Enter your Resume Header.
-
-    > On the Header put your name and contact information.
-
-    ```
-    ## Your Name
-    Phone: (555) 555-5555 |
-    Email: person@gmail.com |
-    GitHub link: github.com/githubId
-    ```
-
-1.  Add your technical skills, experience, and education with details as a subheading.
-
-    ```
-    ### Education
-       - **B.Sc. Computer Science Major** | Name of University  | 2016 - Present
-
-    ### **TECHNICAL SKILLS**
-       - HTML/ CSS / JS
-
-    ### **Work Experience**
-       - Google | Porject Manager | Sep 2017 - Dec 2018
-
-    ```
 
 1.  Push your Resume to GitHub
 
@@ -85,7 +60,7 @@ This README will guide you, the user, on how to host and format your resume on G
 
 1.  Host static website on GitHub Pages.
 
-    - **Make Static website** : As described by Etter, now you need to apply to format using a static site generator. You can manually create a simple static website but it is very tedious and error-prone, so it is better to use Jekyll as our static site generator.<br> You can learn it via a tutorial [here](#More-Resources).
+    - Make Static website : **As described by Etter, now you need to apply to format using a static site generator. You can manually create a simple static website but it is very tedious and error-prone, so it is better to use Jekyll as our static site generator.**<br> You can learn it via a tutorial [here](#More-Resources).
 
     > Go to your repository, click the `[Settings]`.
 
@@ -129,7 +104,10 @@ Jekyll
 
 - Thanks to Etter Andrew for his book [Modern Technical Writing](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS). It inspired me in technical writing. Especially regarding writing a resume and put it online.
 
-- Thanks to my group members for assisting my work during this assignment,whose help was required to get this assignment done in time with better vocabulary and grammar.
+- I would like to thanks the following group member for sharing ideas which help to understand the assignment.
+  - Prabhanshu Shrivastava
+  - Tehillah Kangamba
+  - Evan Marshall
 
 ---
 
@@ -149,3 +127,11 @@ Jekyll
 ### **How to update my resume on my GitHub pages?**
 
 - You can update your Markdown resume on the GitHub page. First, you can go to your repository where you upload your resume. If you followed my instruction, then it is supposed to be named ` "index.md"`. So just click the Markdown and on the right-hand side click the edit icon. Now you will be able to edit your resume.
+
+### **How can I add an GIF?**
+
+- Gifs can be implemented into your documentation by creating and hosting the gif on an application like [Giphy](https://giphy.com/).<br> Once you have your gif, you can follow this step.
+  1. go to your repository on a GitHub page and click `[Issues]`.
+  1. Click `[New issue]`.
+  1. Attach files by dragging & dropping.
+  1. Once you got the link, you can copy and past your readme file.
