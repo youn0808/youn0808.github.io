@@ -4,7 +4,7 @@
 
 This README will guide you, the user, on how to host and format your resume on GitHub Pages. Andrew Etter describes a simple process to put your resume online in his book [Modern Technical Writing](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS).
 
-> This guide is intended for a computer science student who has no experience with Markdown or GitHub, and also interested in learning about technical communication.
+> This guide is intended for a computer science student who has no experience with Markdown or GitHub, and is also interested in learning about technical communication.
 
 ## Prerequisites
 
@@ -13,7 +13,7 @@ This README will guide you, the user, on how to host and format your resume on G
 
 2. **Create a GitHub account.** You need a GitHub account to host your resume. You can visit their main website [here](https://github.com/join) to create an account.
 
-3. **Install GitHub desktop software** You can download [here](https://desktop.github.com/). It is a tool that allows you to interact with GitHub from your desktop.
+3. **Install GitHub desktop software.** You can download [here](https://desktop.github.com/). It is a tool that allows you to interact with GitHub from your desktop.
 
 ---
 
@@ -27,13 +27,13 @@ This README will guide you, the user, on how to host and format your resume on G
     > Click `[File]` on top of your screen and click `[New Repository]`.<br>
     > Type "`your_repository_name.github.io`".<br>
     > Your repository name must exactly match your GitHub user name.<br>
-    > For example, my account name is youn0808. Therefore a repository name should be `youn0808.github.io`. This is how Github knows which repository to host on pages.
+    > For example, my account name is youn0808. Therefore a repository name should be `youn0808.github.io`. This is how Github knows which repository host on pages.
 
     > ![repo](https://user-images.githubusercontent.com/57551793/97372034-a4851e00-1880-11eb-9bf4-3bb03aaa6ce9.gif)
 
 1.  Open Visual Studio Code.
 
-    > Click the `Visual Studio Code`. Now GitHub Desktop will use the repository that you just created.
+    > Click the `[Visual Studio Code]`. Now GitHub Desktop will use the repository that you just created.
 
     > You can change to another editor. If you want, click `[Preference]` and go `[Advanced]` then choose other editors.
     > ![click](https://user-images.githubusercontent.com/57551793/97372256-34c36300-1881-11eb-918e-e5dcbcf97838.png)
@@ -41,7 +41,7 @@ This README will guide you, the user, on how to host and format your resume on G
 1.  Write your resume in `Markdown`.
 
 - **Need to use Lightweight Markup**: When you write `README` and `Resume` in our case, you need to use lightweight markup languages such as GitHub Flavored Markdown. <br>
-  Also, you should use an editor such as Atom, Sublime Text, and Visual Studio to write lightweight markup.<br> If you write XML by hands, it is very tedious and error-prone. For example, a small missing slash or bracket can break an entire page.
+  Also, you should use an editor such as Atom, Sublime Text, and Visual Studio to write lightweight markup.<br> If you write XML by hand, it is very tedious and error-prone. For example, a small missing slash or bracket can break an entire page.
 
 1.  Create a new text file and save it as " **_index<i></i>.md_** "
 
@@ -85,7 +85,7 @@ This README will guide you, the user, on how to host and format your resume on G
 
 1.  Host static website on GitHub Pages.
 
-    - **Make Static website** : As described by Etter, now you need to apply to format using a static site generator. You can manually create a simple static website but it is very tedious and error-prone so it is better to use Jekyll as our static site generator.<br> You can learn it via a tutorial [here](#More-Resources).
+    - **Make Static website** : As described by Etter, now you need to apply to format using a static site generator. You can manually create a simple static website but it is very tedious and error-prone, so it is better to use Jekyll as our static site generator.<br> You can learn it via a tutorial [here](#More-Resources).
 
     > Go to your repository, click the `[Settings]`.
 
@@ -98,7 +98,7 @@ This README will guide you, the user, on how to host and format your resume on G
 
 1.  Applying a Theme to your Resume.
 
-    - You can customize the theme by using it which makes your page special.
+    - You can customize the theme by using this tool which makes your page special.
 
     > In the setting screen, you can scroll down and click `[Change theme]` > ![IMG_A4B61453EEA2-1](https://user-images.githubusercontent.com/57551793/97402107-fd27db80-18bf-11eb-942e-18ecfb8e2491.jpeg)
 
@@ -129,7 +129,7 @@ Jekyll
 
 - Thanks to Etter Andrew for his book [Modern Technical Writing](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS). It inspired me in technical writing. Especially regarding writing a resume and put it online.
 
-- Thanks to my group member for consultation during this assignment, whose help was required to get this one in time with better vocabulary and grammar.
+- Thanks to my group members for assisting my work during this assignment,whose help was required to get this assignment done in time with better vocabulary and grammar.
 
 ---
 
@@ -139,13 +139,13 @@ Jekyll
 
 - Version control system: When you work with someone else, using a word processor is hard to merge and change. But Markdown helps keep your file update handy.
 
-- Variety platform: Markdown is like plain text so any operating system can read it and also it can easily be converted to any format such as pdf, dock, HTML. On the other hand, if you use a word processor the other person needs to have Word or something that can open the word file to see it.
+- Variety platform: Markdown is like plain text so any operating system can read it and it can also be easily converted to any format such as pdf, dock, HTML. On the other hand, if you use a word processor, the other person would have to download Word or something that can open the specific file to see it.
 
 ### **Why is my resume not showing up on the page?**
 
-- There will be many reasons that could cause your website to not show up. First, the most common mistake is you might not make your resume to name `"index.md"`.<br>
-  Another common issue could be that your repository is named is not exactly match your GitHub account name.
+- There will be many reasons that could cause your website to not show up. First, the most common mistake is that you did not name your resume `"index.md"`.<br>
+- Another common issue could be that your repository name do not exactly match your GitHub account name.
 
 ### **How to update my resume on my GitHub pages?**
 
-- You can update your Markdown resume on the GitHub page. First, you can go to your repository where you upload your resume. If you followed my instruction then it is supposed to be named` index.md`. So just click the Markdown and on the right-hand side click the edit icon. Now you will be able to edit your resume.
+- You can update your Markdown resume on the GitHub page. First, you can go to your repository where you upload your resume. If you followed my instruction, then it is supposed to be named ` "index.md"`. So just click the Markdown and on the right-hand side click the edit icon. Now you will be able to edit your resume.
