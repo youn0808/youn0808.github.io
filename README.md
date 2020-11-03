@@ -4,7 +4,7 @@
 
 This README will guide you, the user, on how to host and format your resume on GitHub Pages. Andrew Etter describes a simple process to put your resume online in his book [Modern Technical Writing](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS).
 
-> This guide is intended for a computer science student who has no experience with Markdown or GitHub, and is also interested in learning about technical communication.
+> This guide is intended for a computer science student who has no experience with Markdown or GitHub and is also interested in learning about technical communication.
 
 ## Prerequisites
 
@@ -27,7 +27,7 @@ This README will guide you, the user, on how to host and format your resume on G
     > Click `[File]` on top of your screen and click `[New Repository]`.<br>
     > Type "`your_repository_name.github.io`".<br>
     > Your repository name must exactly match your GitHub user name.<br>
-    > For example, my account name is youn0808. Therefore a repository name should be `youn0808.github.io`. This is how Github knows which repository host on pages.
+    > For example, my account name is youn0808. Therefore a repository name should be `youn0808.github.io`. This is how Github knows which repository hosts on pages.
 
     > ![repo](https://user-images.githubusercontent.com/57551793/97372034-a4851e00-1880-11eb-9bf4-3bb03aaa6ce9.gif)
 
@@ -60,7 +60,8 @@ This README will guide you, the user, on how to host and format your resume on G
 
 1.  Host static website on GitHub Pages.
 
-    - Make Static website : **As described by Etter, now you need to apply to format using a static site generator. You can manually create a simple static website but it is very tedious and error-prone, so it is better to use Jekyll as our static site generator.**<br> You can learn it via a tutorial [here](#More-Resources).
+    - **Make Static website** :
+      Github uses Jekyll a static site generator to make your themes. Etter makes a great point about static site generators in his book. As he described, You can manually create a simple static website but it is very tedious and error-prone, so it is better to use Jekyll as our static site generator.<br> You can learn it via a tutorial [here](#More-Resources).
 
     > Go to your repository, click the `[Settings]`.
 
@@ -122,13 +123,13 @@ Jekyll
 ### **Why is my resume not showing up on the page?**
 
 - There will be many reasons that could cause your website to not show up. First, the most common mistake is that you did not name your resume `"index.md"`.<br>
-- Another common issue could be that your repository name do not exactly match your GitHub account name.
+- Another common issue could be that your repository name does not exactly match your GitHub account name.
 
 ### **How to update my resume on my GitHub pages?**
 
 - You can update your Markdown resume on the GitHub page. First, you can go to your repository where you upload your resume. If you followed my instruction, then it is supposed to be named ` "index.md"`. So just click the Markdown and on the right-hand side click the edit icon. Now you will be able to edit your resume.
 
-### **How can I add an GIF?**
+### **How can I add a GIF?**
 
 - Gifs can be implemented into your documentation by creating and hosting the gif on an application like [Giphy](https://giphy.com/).<br> Once you have your gif, you can follow this step.
   1. go to your repository on a GitHub page and click `[Issues]`.
