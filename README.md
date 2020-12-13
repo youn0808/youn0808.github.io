@@ -1,6 +1,4 @@
-## How to host a resume on GitHub Pages ss
-
-# Feature-1
+## How to host a resume on GitHub Pages
 
 ## Purpose
 
