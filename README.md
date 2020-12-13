@@ -1,7 +1,5 @@
 ## How to host a resume on GitHub Pages
 
-# master change
-
 ## Purpose
 
 This README will guide you, the user, on how to host and format your resume on GitHub Pages. Andrew Etter describes a simple process to put your resume online in his book [Modern Technical Writing](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS).
